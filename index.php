@@ -25,6 +25,17 @@
 
   $total_product_cat = count($product_cat_array);
 
+  $product_sql = "SELECT * FROM product INNER JOIN product_category ON product.product_cat_id = product_category.cat_id";
+  $product_result = $conn->query($product_sql);
+  $product_array = array();
+  if ($product_result->num_rows > 0) {
+    while($row = $product_result->fetch_assoc()) {
+      array_push($product_array, $row);
+    }
+  }
+
+  // die(var_dump($product_sql));
+
 
 ?>
 <!DOCTYPE html>
@@ -113,7 +124,9 @@
           ?>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <?php  
+          
             } 
+
             ?>
 
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -444,29 +457,30 @@
 
               ?>
             </ul>
-          </div>
+          </div>  
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-	          <div class="col-lg-4 col-md-6 portfolio-item filter-el">
-		            <img src="assets/img/portpic/elastic1.png" class="img-fluid" alt="">
+	          
+          <?php   
+
+            foreach ($product_array as $key => $bvalue) {
+            
+          ?>
+	          <div class="col-lg-4 col-md-6 portfolio-item filter-<?php echo $bvalue['cat_short_form'];?>">
+		            <img src="<?php echo $bvalue['product_image'];?>" class="img-fluid" alt="">
 		            <div class="portfolio-info">
-		              <h4>Elastic 1</h4>
-		              <p>Elastic 1</p>
-		              <a href="assets/img/portpic/elastic1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="el"><i class="bx bx-plus"></i></a>
+		              <h4><?php echo $bvalue['product_name'];?></h4>
+		              <p><?php echo $bvalue['product_name'];?></p>
+                  
+		              <a href="<?php echo $bvalue['product_image'];?>" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="<?php echo $bvalue['product_name'];?>"><i class="bx bx-plus"></i></a>
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-	          <div class="col-lg-4 col-md-6 portfolio-item filter-el">
-		            <img src="assets/img/portpic/elastic2.png" class="img-fluid" alt="">
-		            <div class="portfolio-info">
-		              <h4>Elastic 2</h4>
-		              <p>Elastic 2</p>
-		              <a href="assets/img/portpic/elastic2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="el"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-		            </div>
-	          </div>
+
+          <?php } ?>
+
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-el">
 		            <img src="assets/img/portpic/elastic3.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -476,11 +490,8 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-	          	<!-- Elastic End -->
-
-                 <!-- Twill Tape start -->
-
-	          	<div class="col-lg-4 col-md-6 portfolio-item filter-tt">
+<!-- 
+          	<div class="col-lg-4 col-md-6 portfolio-item filter-tt">
 		            <img src="assets/img/portpic/ttap1.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>Twill Tape 1</h4>
@@ -489,9 +500,18 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-              
 
-              <div class="col-lg-4 col-md-6 portfolio-item filter-tt">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-el">
+                <img src="assets/img/portpic/elastic1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Elastic 1</h4>
+                  <p>Elastic 1</p>
+                  <a href="assets/img/portpic/elastic1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="el"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+              
+            <div class="col-lg-4 col-md-6 portfolio-item filter-tt">
 		            <img src="assets/img/portpic/ttap2.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>Twill Tape 2</h4>
@@ -500,7 +520,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-tt">
 		            <img src="assets/img/portpic/ttap3.png" class="img-fluid" alt="">
@@ -533,7 +552,6 @@
 		            </div>
 	          </div>
 
-
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-tt">
 		            <img src="assets/img/portpic/ttap6.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -543,7 +561,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-tt">
 		            <img src="assets/img/portpic/ttap7.png" class="img-fluid" alt="">
@@ -555,8 +572,6 @@
 		            </div>
 	          </div>
 
-
-
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-tt">
 		            <img src="assets/img/portpic/ttap8.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -566,15 +581,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
-	          <!-- Twill Tape End -->
-
-
-
-	          <!-- Webbing Belt Start -->
-
-
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-wb">
 		            <img src="assets/img/portpic/wbelt1.png" class="img-fluid" alt="">
@@ -586,8 +592,7 @@
 		            </div>
 	          </div>
               
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-wb">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-wb">
 		            <img src="assets/img/portpic/wbelt2.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>Webbing Belt 2</h4>
@@ -596,7 +601,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-wb">
 		            <img src="assets/img/portpic/wbelt3.png" class="img-fluid" alt="">
@@ -618,7 +622,6 @@
 		            </div>
 	          </div>
 
-
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-wb">
 		            <img src="assets/img/portpic/wbelt5.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -628,7 +631,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-wb">
 		            <img src="assets/img/portpic/wbelt6.png" class="img-fluid" alt="">
@@ -640,7 +642,6 @@
 		            </div>
 	          </div>
 
-
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-wb">
 		            <img src="assets/img/portpic/wbelt7.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -650,8 +651,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-wb">
 		            <img src="assets/img/portpic/wbelt8.png" class="img-fluid" alt="">
@@ -663,15 +662,7 @@
 		            </div>
 	          </div>
 
-
-	          <!-- Webbing Belt End -->
-
-
-
-
-	          <!-- Woven Elastic Start -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-we">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-we">
 		            <img src="assets/img/portpic/welastic1.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>Woven Elastic 1</h4>
@@ -680,6 +671,7 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
+
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-we">
 		            <img src="assets/img/portpic/welastic2.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -689,6 +681,7 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
+
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-we">
 		            <img src="assets/img/portpic/welastic3.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -699,14 +692,7 @@
 		            </div>
 	          </div>
 
-
-	           <!-- Woven Elastic end -->
-
-
-
-	           <!-- Drawstring Start -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-draw">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-draw">
 		            <img src="assets/img/portpic/drawstring1.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>Drawstring 1</h4>
@@ -715,6 +701,7 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
+
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-draw">
 		            <img src="assets/img/portpic/drawstring2.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -724,6 +711,7 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
+
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-draw">
 		            <img src="assets/img/portpic/drawstring3.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -744,17 +732,7 @@
 		            </div>
 	          </div>
 
-
-	           <!-- Drawstring End -->
-
-
-
-
-
-         <!-- All Labels Start -->
-
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-lab">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-lab">
 		            <img src="assets/img/portpic/label1.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>ALL LABELS</h4>
@@ -765,7 +743,7 @@
 	          </div>
               
 
-              <div class="col-lg-4 col-md-6 portfolio-item filter-lab">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-lab">
 		            <img src="assets/img/portpic/label2.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>ALL LABELS 2</h4>
@@ -774,7 +752,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-lab">
 		            <img src="assets/img/portpic/label3.png" class="img-fluid" alt="">
@@ -796,7 +773,6 @@
 		            </div>
 	          </div>
 
-
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-lab">
 		            <img src="assets/img/portpic/label5.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -806,7 +782,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-lab">
 		            <img src="assets/img/portpic/label6.png" class="img-fluid" alt="">
@@ -818,7 +793,6 @@
 		            </div>
 	          </div>
 
-
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-lab">
 		            <img src="assets/img/portpic/label7.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -828,8 +802,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-lab">
 		            <img src="assets/img/portpic/ttap8.png" class="img-fluid" alt="">
@@ -841,8 +813,6 @@
 		            </div>
 	          </div>
 
-
-
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-lab">
 		            <img src="assets/img/portpic/label9.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -852,8 +822,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-lab">
 		            <img src="assets/img/portpic/label10.png" class="img-fluid" alt="">
@@ -865,16 +833,7 @@
 		            </div>
 	          </div>
 
-         <!-- All Labels End -->
-
-
-
-
-
-      <!-- PAPER ITEMS Start -->
-
-    
-              <div class="col-lg-4 col-md-6 portfolio-item filter-pi">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-pi">
 		            <img src="assets/img/portpic/paper1.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>PAPER ITEMS 1</h4>
@@ -914,8 +873,7 @@
 		            </div>
 	          </div>
 
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-pi">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-pi">
 		            <img src="assets/img/portpic/paper5.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>PAPER ITEMS 5</h4>
@@ -924,7 +882,6 @@
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
-
 
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-pi">
 		            <img src="assets/img/portpic/paper6.png" class="img-fluid" alt="">
@@ -936,17 +893,7 @@
 		            </div>
 	          </div>
 
-
-       <!-- PAPER ITEMS End -->
-
-
-
-
-
-       <!-- SUSPENDER & BELT Start -->
-
-    
-              <div class="col-lg-4 col-md-6 portfolio-item filter-sb">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-sb">
 		            <img src="assets/img/portpic/suspender1.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>SUSPENDER & BELT 1</h4>
@@ -986,8 +933,7 @@
 		            </div>
 	          </div>
 
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-sb">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-sb">
 		            <img src="assets/img/portpic/suspender5.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>SUSPENDER & BELT 5</h4>
@@ -997,19 +943,7 @@
 		            </div>
 	          </div>
 
-
-
-       <!-- SUSPENDER & BELT End -->
-
-
-
-
-
-
-<!-- SEWING THREAD Start -->
-
-    
-              <div class="col-lg-4 col-md-6 portfolio-item filter-st">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-st">
 		            <img src="assets/img/portpic/sewing1.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
 		              <h4>SEWING THREAD 1</h4>
@@ -1029,7 +963,6 @@
 		            </div>
 	          </div>
 
-
 	          <div class="col-lg-4 col-md-6 portfolio-item filter-st">
 		            <img src="assets/img/portpic/sewing3.png" class="img-fluid" alt="">
 		            <div class="portfolio-info">
@@ -1038,37 +971,11 @@
 		              <a href="assets/img/portpic/sewing3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="st"><i class="bx bx-plus"></i></a>
 		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
-	          </div>
-
-	          
-
-       <!-- SEWING THREAD End -->
-
-
-
-
-
-
-	          	
-
+	          </div>    	 -->
         </div>
-
-      </div> -->
+      </div> 
     </section>
-    <!-- End Portfolio Section -->
 
-
-
-
-
-
-
-
-
-
-
-
-    <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
       <div class="container" data-aos="fade-up">
       	<div class="section-title" data-aos="fade-up">

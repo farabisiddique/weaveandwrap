@@ -1,0 +1,51 @@
+
+body{
+    background-image: url("dqaw.jpg");
+   
+   
+ }
+ 
+ .formDiv{
+    background-image: url("sgs.jpg");
+    border-radius: 0.5rem;
+     justify-content: center;
+    }
+
+ 
+ .logo{
+
+background-image: url("tutorial1.png");
+border-radius: 0.5rem;
+ }
+ .admin{
+     margin: 15px 0 !important;
+     
+       
+ }
+ 
+ .main-cont{
+    
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+     border-radius: 0.5rem;
+ }
+ 
+ .alert{
+     font-size: 15px;
+     padding: 0px 5px !important;
+ }
+ 
+ .png{
+    height: 157px;
+    width: 100%;
+    
+ }
+ 
+ 
+ /* @media only screen and (max-width: 600px) {
+     .admin {
+      margin-top: 5px;
+     }
+   } 
+ 
+ 
+   
