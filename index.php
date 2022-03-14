@@ -180,7 +180,7 @@
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
+                    <h4>Team Builder</h4>
                     <p>We already employed a number of man and women aborigines in our factory in future for their engagement in the economic development activity of our country. Hope we will be succeed to our efforts.</p>
                   </div>
                 </div>
@@ -475,7 +475,7 @@
 		              <p><?php echo $bvalue['product_name'];?></p>
                   
 		              <a href="<?php echo $bvalue['product_image'];?>" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="<?php echo $bvalue['product_name'];?>"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -487,7 +487,7 @@
 		              <h4>Elastic 3</h4>
 		              <p>Elastic 3</p>
 		              <a href="assets/img/portpic/elastic1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="el"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 <!-- 
@@ -497,7 +497,7 @@
 		              <h4>Twill Tape 1</h4>
 		              <p>Twill Tape 1</p>
 		              <a href="assets/img/portpic/ttap1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="tt"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -507,7 +507,7 @@
                   <h4>Elastic 1</h4>
                   <p>Elastic 1</p>
                   <a href="assets/img/portpic/elastic1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="el"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
             </div>
               
@@ -517,7 +517,7 @@
 		              <h4>Twill Tape 2</h4>
 		              <p>Twill Tape 2</p>
 		              <a href="assets/img/portpic/ttap2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="tt"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -527,7 +527,7 @@
 		              <h4>Twill Tape 3</h4>
 		              <p>Twill Tape 3</p>
 		              <a href="assets/img/portpic/ttap3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="tt"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -537,7 +537,7 @@
 		              <h4>Twill Tape 4</h4>
 		              <p>Twill Tape 4</p>
 		              <a href="assets/img/portpic/ttap4.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="tt"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -548,7 +548,7 @@
 		              <h4>Twill Tape 5</h4>
 		              <p>Twill Tape 5</p>
 		              <a href="assets/img/portpic/ttap5.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="tt"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -558,7 +558,7 @@
 		              <h4>Twill Tape 6</h4>
 		              <p>Twill Tape 6</p>
 		              <a href="assets/img/portpic/ttap6.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="tt"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -568,7 +568,7 @@
 		              <h4>Twill Tape 7</h4>
 		              <p>Twill Tape 7</p>
 		              <a href="assets/img/portpic/ttap7.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="tt"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -578,7 +578,7 @@
 		              <h4>Twill Tape 8</h4>
 		              <p>Twill Tape 8</p>
 		              <a href="assets/img/portpic/ttap8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="tt"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -588,7 +588,7 @@
 		              <h4>Webbing Belt 1</h4>
 		              <p>Webbing Belt 1</p>
 		              <a href="assets/img/portpic/wbelt1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="wb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
               
@@ -598,7 +598,7 @@
 		              <h4>Webbing Belt 2</h4>
 		              <p>Webbing Belt 2</p>
 		              <a href="assets/img/portpic/wbelt2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="wb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -608,7 +608,7 @@
 		              <h4>Webbing Belt 3</h4>
 		              <p>Webbing Belt 3</p>
 		              <a href="assets/img/portpic/wbelt3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="wb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -618,7 +618,7 @@
 		              <h4>Webbing Belt 4</h4>
 		              <p>Webbing Belt 4</p>
 		              <a href="assets/img/portpic/wbelt4.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="wb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -628,7 +628,7 @@
 		              <h4>Webbing Belt 5</h4>
 		              <p>Webbing Belt 5</p>
 		              <a href="assets/img/portpic/wbelt5.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="wb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -638,7 +638,7 @@
 		              <h4>Webbing Belt 6</h4>
 		              <p>Webbing Belt 6</p>
 		              <a href="assets/img/portpic/wbelt6.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="wb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -648,7 +648,7 @@
 		              <h4>Webbing Belt 7</h4>
 		              <p>Webbing Belt 7</p>
 		              <a href="assets/img/portpic/wbelt7.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="wb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -658,7 +658,7 @@
 		              <h4>Webbing Belt 8</h4>
 		              <p>Webbing Belt 8</p>
 		              <a href="assets/img/portpic/wbelt8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="wb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -668,7 +668,7 @@
 		              <h4>Woven Elastic 1</h4>
 		              <p>Woven Elastic 1</p>
 		              <a href="assets/img/portpic/welastic1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="we"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -678,7 +678,7 @@
 		              <h4>Woven Elastic 2</h4>
 		              <p>Woven Elastic 2</p>
 		              <a href="assets/img/portpic/welastic2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="we"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -688,7 +688,7 @@
 		              <h4>Woven Elastic 3</h4>
 		              <p>Woven Elastic 3</p>
 		              <a href="assets/img/portpic/welastic3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="we"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -698,7 +698,7 @@
 		              <h4>Drawstring 1</h4>
 		              <p>Drawstring 1</p>
 		              <a href="assets/img/portpic/drawstring1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="draw"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -708,7 +708,7 @@
 		              <h4>Drawstring 2</h4>
 		              <p>Drawstring 2</p>
 		              <a href="assets/img/portpic/drawstring2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="draw"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -718,7 +718,7 @@
 		              <h4>Drawstring 3</h4>
 		              <p>Drawstring 3</p>
 		              <a href="assets/img/portpic/drawstring3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="draw"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -728,7 +728,7 @@
 		              <h4>Drawstring 4</h4>
 		              <p>Drawstring 4</p>
 		              <a href="assets/img/portpic/drawstring4.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="draw"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -738,7 +738,7 @@
 		              <h4>ALL LABELS</h4>
 		              <p>ALL LABELS 1</p>
 		              <a href="assets/img/portpic/label1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="lab"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
               
@@ -749,7 +749,7 @@
 		              <h4>ALL LABELS 2</h4>
 		              <p>ALL LABELS 2</p>
 		              <a href="assets/img/portpic/label2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="lab"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -759,7 +759,7 @@
 		              <h4>ALL LABELS 3</h4>
 		              <p>ALL LABELS 3</p>
 		              <a href="assets/img/portpic/label3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="lab"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -769,7 +769,7 @@
 		              <h4>ALL LABELS 4</h4>
 		              <p>ALL LABELS 4</p>
 		              <a href="assets/img/portpic/label4.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="lab"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -779,7 +779,7 @@
 		              <h4>ALL LABELS 5</h4>
 		              <p>ALL LABELS 5</p>
 		              <a href="assets/img/portpic/label5.png.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="lab"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -789,7 +789,7 @@
 		              <h4>ALL LABELS 6</h4>
 		              <p>ALL LABELS 6</p>
 		              <a href="assets/img/portpic/label6.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="lab"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -799,7 +799,7 @@
 		              <h4>ALL LABELS 7</h4>
 		              <p>ALL LABELS</p>
 		              <a href="assets/img/portpic/label7.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="lab"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -809,7 +809,7 @@
 		              <h4>Twill Tape 8</h4>
 		              <p>Twill Tape 8</p>
 		              <a href="assets/img/portpic/ttap8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="tt"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -819,7 +819,7 @@
 		              <h4>ALL LABELS 9</h4>
 		              <p>ALL LABELS 9</p>
 		              <a href="assets/img/portpic/label9.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="lab"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -829,7 +829,7 @@
 		              <h4>ALL LABELS 10</h4>
 		              <p>ALL LABELS 10</p>
 		              <a href="assets/img/portpic/label10.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="lab"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -839,7 +839,7 @@
 		              <h4>PAPER ITEMS 1</h4>
 		              <p>PAPER ITEMS 1</p>
 		              <a href="assets/img/portpic/paper1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="pi"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -849,7 +849,7 @@
 		              <h4>PAPER ITEMS 2</h4>
 		              <p>PAPER ITEMS 2</p>
 		              <a href="assets/img/portpic/paper2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="pi"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -859,7 +859,7 @@
 		              <h4>PAPER ITEMS 3</h4>
 		              <p>PAPER ITEMS 3pi
 		              <a href="assets/img/portpic/paper3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="pi"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -869,7 +869,7 @@
 		              <h4>PAPER ITEMS 4</h4>
 		              <p>PAPER ITEMS 4</p>
 		              <a href="assets/img/portpic/paper4.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="pi"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -879,7 +879,7 @@
 		              <h4>PAPER ITEMS 5</h4>
 		              <p>PAPER ITEMS 5</p>
 		              <a href="assets/img/portpic/paper5.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="pi"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -889,7 +889,7 @@
 		              <h4>PAPER ITEMS 6</h4>
 		              <p>PAPER ITEMS 6</p>
 		              <a href="assets/img/portpic/paper6.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="pi"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -899,7 +899,7 @@
 		              <h4>SUSPENDER & BELT 1</h4>
 		              <p>SUSPENDER & BELT 1</p>
 		              <a href="assets/img/portpic/suspender1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="sb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -909,7 +909,7 @@
 		              <h4>SUSPENDER & BELT 2</h4>
 		              <p>SUSPENDER & BELT 2</p>
 		              <a href="assets/img/portpic/suspender2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="sb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -919,7 +919,7 @@
 		              <h4>SUSPENDER & BELT 3</h4>
 		              <p>SUSPENDER & BELT 3</p>
 		              <a href="assets/img/portpic/suspender3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="sb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -929,7 +929,7 @@
 		              <h4>SUSPENDER & BELT 4</h4>
 		              <p>SUSPENDER & BELT 4</p>
 		              <a href="assets/img/portpic/suspender4.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="sb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -939,7 +939,7 @@
 		              <h4>SUSPENDER & BELT 5</h4>
 		              <p>SUSPENDER & BELT 5</p>
 		              <a href="assets/img/portpic/suspender5.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="sb"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -949,7 +949,7 @@
 		              <h4>SEWING THREAD 1</h4>
 		              <p>SEWING THREAD 1</p>
 		              <a href="assets/img/portpic/sewing1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="st"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -959,7 +959,7 @@
 		              <h4>SEWING THREAD 2</h4>
 		              <p>SEWING THREAD 2</p>
 		              <a href="assets/img/portpic/sewing2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="st"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>
 
@@ -969,7 +969,7 @@
 		              <h4>SEWING THREAD 3</h4>
 		              <p>SEWING THREAD 3</p>
 		              <a href="assets/img/portpic/sewing3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="st"><i class="bx bx-plus"></i></a>
-		              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		            </div>
 	          </div>    	 -->
         </div>
@@ -1046,7 +1046,7 @@
                     <?php  
                         if(!empty($value['team_facebook'])){
                     ?>
-                    <a href="<?php echo $value['team_facebook'] ; ?>">
+                    <a href="<?php echo $value['team_facebook'] ; ?>" target="_blank">
                       <i class="bi bi-facebook"></i>
                     </a>
                     <?php 
@@ -1054,7 +1054,7 @@
                       if(!empty($value['team_instagram'])){ 
 
                     ?>
-                    <a href="">
+                    <a href="<?php echo $value['team_instagram'] ; ?>" target="_blank">
                       <i class="bi bi-instagram"></i>
                     </a>
                     <?php 
@@ -1062,7 +1062,7 @@
                       if(!empty($value['team_linkedin'])){ 
 
                     ?>
-                    <a href="">
+                    <a href="<?php echo $value['team_linkedin'] ; ?>" target="_blank">
                       <i class="bi bi-linkedin"></i>
                     </a>
                     <?php 
@@ -1070,12 +1070,22 @@
                       if(!empty($value['team_twitter'])){ 
 
                     ?>
-                    <a href="">
+                    <a href="<?php echo $value['team_twitter'] ; ?>" target="_blank">
                       <i class="bi bi-twitter"></i>
                     </a>
                     <?php 
                       }
+                      if(!empty($value['team_email'])){ 
+
                     ?>
+                    <a href="mailto:<?php echo $value['team_email'] ; ?>" target="_blank">
+                      <i class="bi bi-envelope"></i>
+                    </a>
+                    <?php 
+                      }
+                      ?>
+
+
                   </div>
                 </div>
                 <div class="team_member_info h-25 d-flex flex-column justify-content-center align-items-center pt-2 pb-2">
@@ -1252,34 +1262,55 @@
           <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
-        <div class="row " data-aos="flip-right" data-aos-delay="100">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14689.144151169512!2d91.3985556!3d23.0132675!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x771a869a5c860d66!2sBari%20Siddique%20Computers%20%26%20Training%20Center!5e0!3m2!1sen!2sus!4v1645610350994!5m2!1sen!2sus" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="row d-flex justify-content-center" style="height: 300px;">
+
+          <div class="col-lg-6 col-md-6 col-sm-12 mr-1" data-aos="flip-right" data-aos-delay="100">
+            <h2 class="text-center">Our Office Address</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.0116520698807!2d90.41005831498327!3d23.85371998453845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjPCsDUxJzEzLjQiTiA5MMKwMjQnNDQuMSJF!5e0!3m2!1sen!2sus!4v1647242090186!5m2!1sen!2sus" style="border:0; width: 100%; height: 75%;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 ml-1" data-aos="flip-left" data-aos-delay="100">
+            <h2 class="text-center">Our Factory Address</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.9816883603416!2d90.42796631498332!3d23.854783984537903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjPCsDUxJzE3LjIiTiA5MMKwMjUnNDguNiJF!5e0!3m2!1sen!2sus!4v1647242146699!5m2!1sen!2sus" style="border:0; width: 100%; height: 75%;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-4">
 
-          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
+          <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-up"data-aos-delay="100">
             <div class="info-box">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>House #79, Road #15,Sector #10,Uttara, Dhaka, Bangladesh</p>
+                <i class="bx bx-envelope"></i>
+                <h3>Email Us</h3>
+                <p class="text-center"><a href="mailto:nasir@weaveandwrap.com">nasir@weaveandwrap.com</a><br><a href="mailto:support@weaveandwrap.com">support@weaveandwrap.com</a></p>
             </div>
           </div>
 
-          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-up"data-aos-delay="100">
+            
+            <div class="info-box mb-2">
+                <i class='bx bx-home'></i>
+                <h3>Our Office</h3>
+                <p class="text-center">Sekh Bhaban, Dag-322, Airport Road(Near Hazi Camp), Uttara, Dhaka-1230, Bangladesh</p>
+            </div>
             <div class="info-box">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>info@example.com<br>contact@example.com</p>
+                <i class='bx bxs-factory'></i>
+                <h3>Our Factory</h3>
+                <p class="text-center">Dag-2451,Noddapara,D.Khan, Uttara,Dhaka-1230</p>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-up"data-aos-delay="100">
             <div class="info-box">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+              <p class="text-center"><a href="tel:+8801922673125">+8801922673125</a><br><a href="tel:+8801887519973">+8801887519973</a></p>
             </div>
           </div>
+
+
+
         </div>
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
@@ -1325,11 +1356,9 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Weave & Wrap</h3>
             <p>
-              House #79, Road #15, Sector #10 <br>
-              Uttara, Dhaka<br>
-              Bangladesh <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Sekh Bhaban, Dag-322, Airport Road(Near Hazi Camp), Uttara, Dhaka-1230, Bangladesh <br><br>
+              <strong>Phone:</strong> <a href="tel:+8801922673125">+8801922673125</a><br>
+              <strong>Email:</strong> <a href="mailto:support@weaveandwrap.com">support@weaveandwrap.com</a><br>
             </p>
           </div>
 
@@ -1374,11 +1403,7 @@
           &copy; Copyright <strong><span>Weave & Wrap</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/ -->
-          Designed & Developed by <a href="https://bootstrapmade.com/">Bari Siddique Computers</a>
+          Designed & Developed by <a href="#">Bari Siddique Computers</a>
         </div>
       </div>
       <div class="social-links text-center text-lg-right pt-3 pt-lg-0">

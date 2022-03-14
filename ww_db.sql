@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 14, 2022 at 05:05 AM
+-- Generation Time: Mar 14, 2022 at 11:31 AM
 -- Server version: 8.0.27-0ubuntu0.20.04.1
 -- PHP Version: 7.4.26
 
@@ -138,6 +138,7 @@ CREATE TABLE `team` (
   `team_designation` varchar(40) COLLATE utf8mb4_general_ci NOT NULL,
   `team_image` text COLLATE utf8mb4_general_ci NOT NULL,
   `team_description` text COLLATE utf8mb4_general_ci NOT NULL,
+  `team_email` text COLLATE utf8mb4_general_ci NOT NULL,
   `team_facebook` text COLLATE utf8mb4_general_ci NOT NULL,
   `team_instagram` text COLLATE utf8mb4_general_ci NOT NULL,
   `team_linkedin` text COLLATE utf8mb4_general_ci NOT NULL,
@@ -148,11 +149,11 @@ CREATE TABLE `team` (
 -- Dumping data for table `team`
 --
 
-INSERT INTO `team` (`team_id`, `team_name`, `team_designation`, `team_image`, `team_description`, `team_facebook`, `team_instagram`, `team_linkedin`, `team_twitter`) VALUES
-(1, 'Nasir Uddin Ahmed', 'chief executive officer', 'assets/img/team/received_2185282538400152.jpeg', 'He is the boss', '', '', '', ''),
-(2, 'earshadul bari siddique', 'chief technology officer ', 'assets/img/team/85183441_178752970056249_6088028511862259712_n.jpg', 'he makes things the boss can\'t', 'https://www.facebook.com/farabi.siddique/', '', 'https://www.linkedin.com/in/farabisiddique/', 'https://twitter.com/farabisiddique'),
-(3, 'sazib farayezi', 'chief graphics designer', 'assets/img/team/273062758_359848402670874_6609116789900107558_n.jpg', 'he is a pussy', '', '', '', ''),
-(4, 'muntaha mitu', 'kajer bua', 'assets/img/team/team-2.jpg', 'she just sweeps the streets.', '', '', '', '');
+INSERT INTO `team` (`team_id`, `team_name`, `team_designation`, `team_image`, `team_description`, `team_email`, `team_facebook`, `team_instagram`, `team_linkedin`, `team_twitter`) VALUES
+(1, 'Nasir Uddin Ahmed', 'chief executive officer', 'assets/img/team/received_2185282538400152.jpeg', 'He is the boss', 'nasir@weaveandwrap.com', '', '', '', ''),
+(2, 'earshadul bari siddique', 'chief technology officer ', 'assets/img/team/85183441_178752970056249_6088028511862259712_n.jpg', 'he makes things the boss can\'t', 'ebsiddique@weaveandwrap.com', 'https://www.facebook.com/farabi.siddique/', '', 'https://www.linkedin.com/in/farabisiddique/', 'https://twitter.com/farabisiddique'),
+(3, 'sazib farayezi', 'chief graphics designer', 'assets/img/team/9cb6a8206806915.5e8c6baeae3f7.jpg', 'he is a pussy', '', '', '', '', ''),
+(4, 'Solaiman Sukhon', 'Human Resource Manager', 'assets/img/team/image1616401429436741389.png', 'she just sweeps the streets.', '', '', '', '', '');
 
 --
 -- Indexes for dumped tables
