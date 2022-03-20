@@ -4,6 +4,21 @@
  
   include realpath('./db.php');
 
+
+  $partner_sql = "SELECT * FROM partner"; 
+  $partner_result = $conn->query($partner_sql);
+  $partners = array();
+  if ($partner_result->num_rows > 0) {
+    while($row = $partner_result->fetch_assoc()) {
+      array_push($partners, $row);
+    }
+  }
+  $total_partners = count($partners);
+
+
+
+
+
   $team_sql = "SELECT * FROM team"; 
   $team_result = $conn->query($team_sql);
   $team_members = array();
@@ -13,6 +28,13 @@
     }
   }
   $total_team_members = count($team_members);
+
+
+
+
+
+
+
 
   $product_cat_sql = "SELECT * FROM product_category"; 
   $product_cat_result = $conn->query($product_cat_sql);
@@ -986,32 +1008,22 @@
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
 
-            <div class="swiper-slide"><img src="assets/img/brand/brand1.png" class="img-fluid" alt=""></div>
+            <?php  
 
-            <div class="swiper-slide"><img src="assets/img/brand/brand2.png" class="img-fluid" alt=""></div>
+                foreach ($partners as $key => $value) {
+                
 
-            <div class="swiper-slide"><img src="assets/img/brand/brand3.png" class="img-fluid" alt=""></div>
+            ?>
 
-            <div class="swiper-slide"><img src="assets/img/brand/brand4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide">
+              <a href="<?php echo $value['partner_link']; ?>" target="_blank">
+                <img src="<?php echo $value['partner_logo']; ?>" class="img-fluid" alt="<?php echo $value['partner_name']; ?>">
+              </a>
+            </div>
 
-            <div class="swiper-slide"><img src="assets/img/brand/brand5.png" class="img-fluid" alt=""></div>
-
-            <div class="swiper-slide"><img src="assets/img/brand/brand6.png" class="img-fluid" alt=""></div>
-
-            <div class="swiper-slide"><img src="assets/img/brand/brand7.png" class="img-fluid" alt=""></div>
-
-            <div class="swiper-slide"><img src="assets/img/brand/brand8.png" class="img-fluid" alt=""></div>
-           
-            <div class="swiper-slide"><img src="assets/img/brand/brand9.png" class="img-fluid" alt=""></div>
-
-            <div class="swiper-slide"><img src="assets/img/brand/brand10.png" class="img-fluid" alt=""></div>
-
-            <div class="swiper-slide"><img src="assets/img/brand/brand11.png" class="img-fluid" alt=""></div>
-
-            <div class="swiper-slide"><img src="assets/img/brand/brand12.png" class="img-fluid" alt=""></div>
-
-            <div class="swiper-slide"><img src="assets/img/brand/brand13.png" class="img-fluid" alt=""></div>
-
+            <?php 
+              }
+            ?>
 
           </div>
           <div class="swiper-pagination"></div>
