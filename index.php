@@ -124,40 +124,11 @@
 
 <body>
 
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+  <?php 
 
-      <div class="logo">
-        <!-- <h1><a href="index.html">Weave & Wrap</a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-         <a href="index.html"><img src="assets/img/logo color-01.png" alt="" class="img-fluid"></a>
-      </div>
+    include 'header.php';
 
-      <nav id="navbar" class="navbar">
-        <ul> 
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#values">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Our Products</a></li>
-
-          <?php
-            if($total_team_members>0){
-          ?>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <?php  
-          
-            } 
-
-            ?>
-
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-
-    </div>
-  </header>
+  ?>
 
 
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
@@ -175,10 +146,11 @@
             <div class="content">
               <h3>Why Choose Weave & Wrap?</h3>
               <p>
-                We Sincerely response to the challenges of economy for private sectors major stimulus for phenomenal growth of the company. we give very much emphasis on ethical business practices for entire global needs. 
+                Our knowledge and commitment has made us a multi-product organization with clients all over the world. We work hard To address the expectations of our customer in an innovative way.
+  
               </p>
               <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                <a href="why-us.php" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -218,12 +190,21 @@
     <section id="values" class="values">
       <div class="container">
 
+        <div class="section-title" data-aos="flip-up">
+          <h2>About Us</h2>
+          
+        </div>
+
+        <div class="text-center">
+                <a href="ww-company-profile.php" class="see-profile-btn">See Full Company Profile <i class="bx bx-chevron-right"></i></a>
+        </div>
+
         <div class="row">
           <div class="col-md-6 d-flex align-items-stretch" data-aos="flip-down">
             <div class="card" style="background-image: url(assets/img/mission.jpg);">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Our Mission</a></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                <p class="card-text">The mission of weave & wrap is to extend its spheres of activities to all segments of the garments accessories industry. We aspire to capture the leadership positions in all areas of its operations. In a single word, we would like to be the ultimate solution provider of Trims and Accessories for Export oriented Garments Industry as well as Ready made Garments Industries (RMG).</p>
                 <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
@@ -232,7 +213,11 @@
             <div class="card" style="background-image: url(assets/img/ourplan.jpg);">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Our Plan</a></h5>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
+                <p class="card-text">Our primary objectives over the next year are to:
+                  Forge a strong market presence in the Trimmings market. We will work toward this by obtaining a good number of clients/buyers in the next 01 Years.
+                  Improve our cost of goods by choosing local suppliers and increasing the size of our orders therefore decreasing the cost per piece.
+                  Create market awareness through co-op advertising.
+                </p>
                 <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
@@ -242,7 +227,7 @@
             <div class="card" style="background-image: url(assets/img/vision.jpg);">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Our Vision</a></h5>
-                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
+                <p class="card-text">Weave & wrap strives to achieve the greatest customer satisfaction through the provision of the right products at the right time with the right services. We believe that, to be one of the world's leading manufacturers of  garments accessories. This will be achieving as we continuously aim to improve our best effort and to develop new products in the market that will support the apparel industry. In a single word we want be the preferred apparel accessories supplier to world renowned, branded apparel manufactures.</p>
                 <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
@@ -266,50 +251,50 @@
 
         <div class="section-title" data-aos="flip-up">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6" data-aos="flip-up">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-briefcase"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title"><a href="">Quality Control</a></h4>
+              <p class="description">Our primary concern is to achieve the maximum satisfaction of the buyers by ensuring world class quality. We have trained workers, imported machineries and suitable environment that ensure the best quality of products</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-card-checklist"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <h4 class="title"><a href="">Strong Business Ethics</a></h4>
+              <p class="description">These thing define our business ethics Honesty, Integrity, Promise keeping & Trustworthiness, Loyalty, Respect for others, Reputation, Moral and Accountability</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-bar-chart"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h4 class="title"><a href="">Transparency in Deals</a></h4>
+              <p class="description">We build Open and Honest Relationships With client to ensure Transparency.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-binoculars"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4 class="title"><a href="">Deliver on Time</a></h4>
+              <p class="description">We know the value of time. Time is money. So we give top priority on the time to time delivery on your premises. With the proper co-operation of our devoted employees we try our best to deliver the product in time.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-brightness-high"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4 class="title"><a href="">No Supply Issues, Wastage or Pilferage</a></h4>
+              <p class="description">We are free from supply shortage, wastage & pilferage. With our well organized people, high quality machineries and hard work we ensure the maximum uses of products. So you can get relief from this kind of problem that often occur in case of imported accessories.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <h4 class="title"><a href="">Competitive Prices</a></h4>
+              <p class="description">Being one of the largest accessories organization Weave & Wrap gives you the most competitive price. Comparing to the others we are very much concerned about the price level. So you are getting best quality in a very competitive price.</p>
             </div>
           </div>
         </div>
@@ -458,7 +443,7 @@
 
         <div class="section-title">
           <h2 data-aos="fade-up">Our Products</h2>
-          <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p data-aos="fade-up"></p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -1001,8 +986,8 @@
     <section id="clients" class="clients">
       <div class="container" data-aos="fade-up">
       	<div class="section-title" data-aos="fade-up">
-          <h2>Our Global Partners</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Our Experienced Partners</h2>
+          <p></p>
         </div>
 
         <div class="clients-slider swiper">
@@ -1042,9 +1027,9 @@
 
         <div class="section-title">
           <h2 data-aos="fade-up">Team</h2>
-          <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p data-aos="fade-up"></p>
         </div>
-         <div class="row" style="height: 28vw;">
+         <div class="row" style="min-height: 28vw;">
             <?php  
 
                 foreach ($team_members as $key => $value) {
@@ -1271,19 +1256,22 @@
 
         <div class="section-title">
           <h2 data-aos="fade-up">Contact Us</h2>
-          <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p data-aos="fade-up"></p>
         </div>
 
         <div class="row d-flex justify-content-center" style="height: 300px;">
 
           <div class="col-lg-6 col-md-6 col-sm-12 mr-1" data-aos="flip-right" data-aos-delay="100">
             <h2 class="text-center">Our Office Address</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.0116520698807!2d90.41005831498327!3d23.85371998453845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjPCsDUxJzEzLjQiTiA5MMKwMjQnNDQuMSJF!5e0!3m2!1sen!2sus!4v1647242090186!5m2!1sen!2sus" style="border:0; width: 100%; height: 75%;" allowfullscreen="" loading="lazy"></iframe>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.0116520698807!2d90.41005831498327!3d23.85371998453845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjPCsDUxJzEzLjQiTiA5MMKwMjQnNDQuMSJF!5e0!3m2!1sen!2sus!4v1647242090186!5m2!1sen!2sus" style="border:0; width: 100%; height: 75%;" allowfullscreen="" loading="lazy"></iframe> -->
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.0113956320215!2d90.41022701429904!3d23.853729090739474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b35bf919b64b322!2zMjPCsDUxJzEzLjQiTiA5MMKwMjQnNDQuNyJF!5e0!3m2!1sen!2sbd!4v1650561628786!5m2!1sen!2sbd" style="border:0; width: 100%; height: 75%;" allowfullscreen="" loading="lazy"></iframe>
           </div>
 
           <div class="col-lg-6 col-md-6 col-sm-12 ml-1" data-aos="flip-left" data-aos-delay="100">
             <h2 class="text-center">Our Factory Address</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.9816883603416!2d90.42796631498332!3d23.854783984537903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjPCsDUxJzE3LjIiTiA5MMKwMjUnNDguNiJF!5e0!3m2!1sen!2sus!4v1647242146699!5m2!1sen!2sus" style="border:0; width: 100%; height: 75%;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.0196438823255!2d90.42071841429902!3d23.85343619075074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x49620fd2b8f9ba47!2zMjPCsDUxJzEyLjQiTiA5MMKwMjUnMjIuNSJF!5e0!3m2!1sen!2sbd!4v1650561527973!5m2!1sen!2sbd" style="border:0; width: 100%; height: 75%;" allowfullscreen="" loading="lazy"></iframe>
+
           </div>
 
 
@@ -1317,7 +1305,11 @@
             <div class="info-box">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p class="text-center"><a href="tel:+8801922673125">+8801922673125</a><br><a href="tel:+8801887519973">+8801887519973</a></p>
+              <p class="text-center">
+                <a href="tel:+8801322673125">+8801322673125</a>
+                <br>
+                
+              </p>
             </div>
           </div>
 
@@ -1369,7 +1361,7 @@
             <h3>Weave & Wrap</h3>
             <p>
               Sekh Bhaban, Dag-322, Airport Road(Near Hazi Camp), Uttara, Dhaka-1230, Bangladesh <br><br>
-              <strong>Phone:</strong> <a href="tel:+8801922673125">+8801922673125</a><br>
+              <strong>Phone:</strong> <a href="tel:+8801322673125">+8801322673125</a><br>
               <strong>Email:</strong> <a href="mailto:support@weaveandwrap.com">support@weaveandwrap.com</a><br>
             </p>
           </div>
@@ -1423,7 +1415,7 @@
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/weaveandwrap/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
   </footer><!-- End Footer -->

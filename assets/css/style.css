@@ -727,15 +727,16 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 50px 20px;
-  margin-top: 35px;
+  padding: 50px 30px;
+  margin-top: 20px;
   margin-bottom: 25px;
   text-align: center;
-  height: 200px;
+  height: 285px;
   position: relative;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
+
 .services .icon {
   position: absolute;
   top: -36px;
@@ -1959,3 +1960,24 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+
+.see-profile-btn {
+  display: inline-block;
+  background: #ff774a;
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+  margin-bottom: 10px;
+}
+.see-profile-btn i {
+  font-size: 14px;
+}
+.see-profile-btn:hover {
+  color: #ff5821;
+  background: #fff;
+  border:  1px solid black;
+}
+
