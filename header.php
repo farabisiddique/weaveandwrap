@@ -14,23 +14,17 @@
           <li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
           <li><a class="nav-link scrollto" href="index.php#testimonials">Testimonials</a></li>
           
-          <li><a class="nav-link scrollto" href="career.php">Career</a></li>
+          <li><a class="nav-link scrollto" href="#">Career</a></li>
 
-          <li><a class="nav-link scrollto" href="news.php">News & Events</a></li>
+          <li><a class="nav-link scrollto" href="#">News & Events</a></li>
 
           <li><a class="nav-link scrollto" href="#">Sustainability</a></li>
 
           <li><a class="nav-link scrollto " href="index.php#portfolio">Our Products</a></li>
 
-          <?php
-            if($total_team_members>0){
-          ?>
-          <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
-          <?php  
           
-            } 
-
-            ?>
+          <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
+          
 
           <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
         </ul>

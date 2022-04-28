@@ -174,22 +174,6 @@
   
               </p>
 
-              <h3>Our core values</h3>
-              <p>
-                Our Core values are built on superior customer satisfaction principles we strive to achieve everyday by maintaining
-
-                <ul>
-                  <li>Fashion Sensibility</li>
-                  <li>Service Quality</li>
-                  <li>Corporate dignity and reliability</li>
-                  <li>Legal, ethical, Social and environment responsibility</li>
-                  <li>Personal sincerity</li>
-                  <li>And latest technology</li>
-                </ul>
-
-
-              </p>
-
               <h3>Compliance</h3>
               <p>
 
